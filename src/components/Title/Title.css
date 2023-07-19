@@ -1,0 +1,40 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  align-self: center;
+  width: 100%;
+}
+
+.title__title {
+  font-family: "rosamarena", "Arial", sans-serif;
+  font-size: 80px;
+  line-height: 90px;
+  font-weight: normal;
+  margin: 0;
+  align-self: center;
+  text-align: start;
+}
+
+@media screen and (max-width: 1700px) {
+  .title__title {
+    font-size: 70px;
+    line-height: 80px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .title__title {
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .title__title {
+    font-size: 50px;
+    line-height: 40px;
+    align-self: center;
+  }
+}

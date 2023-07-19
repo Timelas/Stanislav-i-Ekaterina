@@ -1,0 +1,454 @@
+.info-date {
+  margin-top: 100px;
+  position: relative;
+}
+
+.info-date__invitation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.info-date__who {
+  font-family: "rosamarena", "Arial", sans-serif;
+  font-size: 80px;
+  line-height: 100px;
+  margin: 0;
+  text-shadow: -.1px 0 black;
+}
+
+.info-date__text {
+  font-size: 20px;
+  line-height: 40px;
+  width: 70%;
+  margin: 70px 0 50px;
+}
+
+.info-date__our-wedding {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  text-shadow: -.1px 0 black;
+}
+
+.info-date__our-wedding-text {
+  font-family: "rosamarena", "Arial", sans-serif;
+  font-size: 80px;
+  line-height: 100px;
+  line-height: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.info-date__place {
+  display: grid;
+  grid-template-columns: 7fr 5fr 7fr;
+  grid-template-rows: repeat(3, max-content);
+  grid-template-areas:
+    "check-in day-week banquet"
+    "check-in day banquet"
+    "check-in time banquet";
+  margin-top: 100px;
+  padding: 100px 0;
+  box-sizing: border-box;
+  align-items: center;
+  row-gap: 20px;
+  column-gap: 15px;
+  position: relative;
+  background-color: #b5c6b8BF;
+}
+
+.info-date__check-in {
+  grid-area: check-in;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0 50px;
+}
+
+.info-date__what {
+  font-family: "rosamarena", "Arial", sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+  margin: 0 0 30px;
+  text-shadow: -.1px 0 black;
+}
+
+.info-date__where {
+  font-size: 22px;
+  line-height: 29px;
+  margin: 0;
+}
+
+.info-date__day-week {
+  font-family: "rosamarena", "Arial", sans-serif;
+  grid-area: day-week;
+  font-size: 50px;
+  margin: 0;
+  justify-self: center;
+}
+
+.info-date__stone {
+  background-image: url(../../images/stone5.svg);
+  position: absolute;
+  background-size: contain;
+  width: 1000px;
+  height: 1000px;
+  top: 550px;
+  left: 400px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  z-index: -1;
+}
+
+.info-date__day {
+  grid-area: day;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  background-color: #d9e5d8;
+  border-radius: 21px;
+  padding: 30px;
+  box-sizing: border-box;
+  max-width: 400px;
+  min-width: 360px;
+  z-index: 3;
+}
+
+.info-date__number {
+  font-size: 60px;
+  font-weight: 2;
+  margin: 0;
+}
+
+.info-date__vertical-line {
+  height: 80px;
+  width: 1px;
+  background-color: black;
+  margin: 0 15px;
+}
+
+.info-date__time {
+  grid-area: time;
+  font-size: 22px;
+  line-height: 29px;
+  margin: 0;
+  justify-self: center;
+}
+
+.info-date__banquet {
+  grid-area: banquet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1700px) {
+  .info-date {
+    margin-top: 75px;
+  }
+
+  .info-date__day {
+    padding: 20px;
+    min-width: 300px;
+  }
+
+  .info-date__our-wedding {
+    width: 500px;
+  }
+
+  .info-date__our-wedding-text {
+    font-size: 70px;
+    line-height: 80px;
+  }
+
+  .info-date__text {
+    font-size: 18px;
+    line-height: 35px;
+    width: 65%;
+    margin: 60px 0 40px;
+  }
+
+  .info-date__who {
+    font-size: 70px;
+    line-height: 80px;
+  }
+
+  .info-date__day-week {
+    font-size: 40px;
+  }
+
+  .info-date__number {
+    font-size: 55px;
+  }
+
+  .info-date__time {
+    font-size: 28px;
+  }
+
+  .info-date__where {
+    font-size: 18px;
+  }
+
+  .info-date__vertical-line {
+    height: 70px;
+    margin: 0 13px;
+  }
+
+  .info-date__time {
+    font-size: 20px;
+  }
+
+  .info-date__stone {
+    width: 900px;
+    height: 900px;
+    top: 450px;
+    left: 450px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .info-date {
+    margin-top: 50px;
+  }
+
+  .info-date__day {
+    padding: 20px;
+    min-width: 200px;
+  }
+
+  .info-date__who {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  .info-date__text {
+    font-size: 14px;
+    line-height: 30px;
+    width: 60%;
+    margin: 50px 0 30px;
+  }
+
+  .info-date__our-wedding {
+    width: 350px;
+    border-radius: 50px;
+  }
+
+  .info-date__our-wedding-text {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  .info-date__place {
+    column-gap: 10px;
+  }
+
+  .info-date__check-in {
+    padding: 0 30px;
+  }
+
+  .info-date__what {
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0 0 20px;
+  }
+
+  .info-date__where {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .info-date__day-week {
+    font-size: 30px;
+  }
+
+  .info-date__number {
+    font-size: 45px;
+    font-weight: 2;
+    margin: 0;
+  }
+
+  .info-date__vertical-line {
+    height: 60px;
+    margin: 0 13px;
+  }
+
+  .info-date__time {
+    font-size: 18px;
+  }
+
+  .info-date__stone {
+    width: 800px;
+    height: 800px;
+    top: 370px;
+    left: 350px;
+  }
+}
+
+@media screen and (max-width: 1000px) { 
+  .info-date__number {
+    font-size: 40px;
+  }
+
+  .info-date__vertical-line {
+    height: 60px;
+    margin: 0 10px;
+  }
+
+  .info-date__stone {
+    width: 600px;
+    height: 600px;
+    top: 300px;
+    left: 300px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .info-date__our-wedding {
+    width: 350px;
+    border-radius: 50px;
+  }
+
+  .info-date__our-wedding-text {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .info-date__place {
+    padding: 80px 0;
+    margin-top: 50px;
+  }
+
+  .info-date__check-in {
+    padding: 0 30px;
+  }
+
+  .info-date__what {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0 0 20px;
+  }
+
+  .info-date__where {
+    font-size: 14px;
+  }
+
+  .info-date__day-week {
+    font-size: 28px;
+  }
+
+  .info-date__number {
+    font-size: 30pt;
+  }
+
+  .info-date__vertical-line {
+    height: 50px;
+    margin: 0 10px;
+  }
+
+  .info-date__time {
+    font-size: 16px;
+  }
+
+  .info-date__who {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .info-date__text {
+    width: calc(100% - 50px);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .info-date__who {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .info-date__text {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 30px 0 15px;
+  }
+
+  .info-date__our-wedding {
+    text-align: center;
+    background-color: inherit;
+    width: 100%;
+  }
+
+  .info-date__our-wedding-text {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .info-date__place {
+    grid-template-columns: 20px 3fr 20px;
+    grid-template-rows: repeat(5, max-content);
+    grid-template-areas:
+      "day-week day-week day-week"
+      "day day day"
+      "check-in check-in check-in"
+      "banquet banquet banquet"
+      "time time time";
+    padding: 50px 0;
+    row-gap: 20px;
+    column-gap: 15px;
+  }
+
+  .info-date__line1 {
+    height: 1px;
+  }
+
+  .info-date__line2 {
+    height: 1px;
+  }
+
+  .info-date__check-in {
+    margin: 0;
+  }
+
+ .info-date__what {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 0 15px;
+  }
+
+  .info-date__where {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .info-date__day-week {
+    font-size: 20px;
+  }
+
+  .info-date__number {
+    font-size: 30px;
+    font-weight: 2;
+    margin: 0;
+  }
+
+  .info-date__vertical-line {
+    height: 50px;
+    margin: 0 10px;
+  }
+
+  .info-date__time {
+    font-size: 14px;
+  }
+
+  .info-date__stone {
+    display: none;
+  }
+}

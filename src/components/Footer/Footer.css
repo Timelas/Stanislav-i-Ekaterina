@@ -1,0 +1,147 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 100px 0;
+  position: relative;
+}
+
+.footer__stone {
+  background-image: url(../../images/stone9.svg);
+  position: absolute;
+  background-size: cover;
+  width: 1000px;
+  height: 800px;
+  bottom: 0;
+  left: -300px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  z-index: -1;
+}
+
+.footer__text {
+  font-size: 20px;
+  margin: 0;
+}
+
+.footer__names {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  max-width: 450px;
+  align-items: flex-start;
+  text-shadow: -.1px 0 black;
+  width: 100%;
+}
+
+.footer__name {
+  font-family: "rosamarena", "Arial", sans-serif;
+  font-size: 70px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.footer__name-end {
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 1700px) {
+  .footer {
+    padding: 50px 0 100px;
+  }
+
+  .footer__text {
+    font-size: 18px;
+  }
+
+  .footer__names {
+    max-width: 400px;
+  }
+
+  .footer__name {
+    font-size: 60px;
+  }
+
+  .footer__stone {
+    width: 700px;
+    height: 500px;
+    bottom: 0;
+    left: -200px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .footer {
+    padding: 50px 0 70px;
+  }
+
+  .footer__text {
+    font-size: 14px;
+  }
+
+  .footer__names {
+    max-width: 400px;
+  }
+
+  .footer__name {
+    font-size: 50px;
+    line-height: 1.2;
+  }
+
+  .footer__stone {
+    width: 500px;
+    height: 300px;
+    bottom: 0;
+    left: -150px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    flex-direction: column;
+    gap: 5px;
+    padding: 40px 0 50px;
+  }
+
+  .footer__text {
+    font-size: 12px;
+  }
+
+  .footer__names {
+    margin-top: 15px;
+    max-width: 300px;
+  }
+
+  .footer__name {
+    font-size: 40px;
+    line-height: 1.2;
+    margin: 0;
+  }
+
+  .footer__name-end {
+    align-self: flex-end;
+  }
+
+  .footer__stone {
+    width: 400px;
+    height: 200px;
+    bottom: 0;
+    left: -100px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    padding: 40px 25px 50px;
+  }
+
+  .footer__stone {
+    width: 300px;
+    height: 150px;
+    bottom: 0;
+    left: -50px;
+  }
+}

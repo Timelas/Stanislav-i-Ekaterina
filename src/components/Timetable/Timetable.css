@@ -193,10 +193,10 @@
     grid-template-areas:
       "rings line-rings text-rings"
       "text-foto line-foto foto"
-      "glasses line-glasses text-glasses"
-      "text-plate line-plate plate"
-      "cake line-cake text-cake"
-      "text-music line-music music"
+      "music line-music text-music"
+      "text-glasses line-glasses glasses"
+      "plate line-plate text-plate"
+      "text-cake line-cake cake"
       "car line-car text-car";
     margin-top: 30px;
     column-gap: 15px;

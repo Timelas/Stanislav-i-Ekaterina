@@ -4,7 +4,7 @@ import "./Questions.css";
 
 function Questions() {
   const formRef = useRef(null)
-  const scriptUrl = "https://script.google.com/macros/s/AKfycby_BYT6LzPV3FZHn66CPeQcYu6bE5b3ZBjuvAoU08L_RdiIzQ7viRTg5mtfej77Y_iK/exec"
+  const scriptUrl = "https://script.google.com/macros/s/AKfycbwHwD1eQtNqrfeqjtdxIR0xT43SOSW_N3blDutOTBLr1nvD1s8e6J9UbPy4Vwg6llBj/exec"
   const [loading, setLoading] = useState(false);
   const [isFormVisible, setisFormVisible] = useState(true);
 
@@ -72,7 +72,7 @@ function Questions() {
           </p>
           <p className="question__string">
             <label htmlFor="alco" className="question__label-input">Остаетесь ли на ночь в коттедже:</label>
-            <input type="text" name="Ночевка" id="alco" required className="question__input"></input>
+            <input type="text" name="Ночёвка" id="night" required className="question__input"></input>
           </p>
           <button type="submit" className="question__button" disabled={loading ? true : false}>{loading ? "Отправка..." : "Отправить"}</button>
         </form> 

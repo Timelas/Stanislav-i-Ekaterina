@@ -39,18 +39,18 @@ function Questions() {
           </p>
           <fieldset className="question__string">Предпочтения по еде:
           <label htmlFor="meat" className="question__label">
-              <input className="question__unvisible" type="checkbox" name="Еда" value="Мясо" id="meat"></input>
-              <span className="question__visible-checkbox"></span>
+              <input className="question__unvisible" type="radio" name="Еда" value="Мясо" id="meat"></input>
+              <span className="question__visible-radio"></span>
               <span className="question__text-span">Мясо</span>
             </label>
             <label htmlFor="fish" className="question__label">
-              <input className="question__unvisible" type="checkbox" name="Еда" value="Рыба" id="fish"></input>
-              <span className="question__visible-checkbox"></span>
+              <input className="question__unvisible" type="radio" name="Еда" value="Рыба" id="fish"></input>
+              <span className="question__visible-radio"></span>
               <span className="question__text-span">Рыба</span>
             </label>
             <label htmlFor="bird" className="question__label">
-              <input className="question__unvisible" type="checkbox" name="Еда" value="Птица" id="bird"></input>
-              <span className="question__visible-checkbox"></span>
+              <input className="question__unvisible" type="radio" name="Еда" value="Птица" id="bird"></input>
+              <span className="question__visible-radio"></span>
               <span className="question__text-span">Птица</span>
             </label>
           </fieldset>
